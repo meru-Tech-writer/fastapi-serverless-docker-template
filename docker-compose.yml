@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  app:
+    build: 
+      context: .
+      target: final
+    restart: unless-stopped
+
+    ports:
+      - "3000:3000"
+      - "8000:8000"
+    
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/__pycache__
+    
+    env_file:
+      - .env

@@ -1,0 +1,40 @@
+service: serverless-fastapi-demo
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: ap-northeast-1
+
+  logRetentionInDays: 7
+
+  iam:
+    role:
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "lambda:InvokeFunction"
+            - "lambda:InvokeAsync"
+          Resource: "*"
+  
+  httpApi:
+    cors: true
+  
+functions:
+  api:
+    handler: main.handler
+    timeout: 10
+    events:
+      - httpApi:
+          path: /{proxy+}
+          method: ANY
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: false
+
+    pythonBin: python3

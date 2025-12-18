@@ -1,0 +1,28 @@
+node_modules
+venv
+.venv
+.git
+.env
+__pycache__
+.serverless
+
+# Python caches and build artifacts
+*.pyc
+*.pyo
+*.pyd
+build
+dist
+*.egg-info
+
+# Editor and OS files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache
+.coverage
+
+# Logs
+*.log
