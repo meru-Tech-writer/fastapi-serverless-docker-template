@@ -12,7 +12,7 @@ Windows環境でも環境汚染を気にせず、Dockerを使って **FastAPI** 
 このリポジトリの詳しい解説や環境構築の手順は、以下のNote記事で公開しています。
 開発の背景やトラブルシューティングはこちらをご覧ください。
 
-👉 **[【保存版】FastAPI × Serverless Framework開発の正解ルート](https://note.com/meru_tech/n/ne6374e6579a2)**
+👉 **[FastAPIをServerless FrameworkでAWS Lambdaにデプロイする完全ガイド【Mangum採用】](https://note.com/meru_tech/n/ne6374e6579a2)**
 
 ## ✨ 特徴 (Features)
 * **環境汚染ゼロ:** ローカル環境（Windows）にPythonやNode.jsを直接インストールせず、Dockerコンテナ内ですべて完結します。
