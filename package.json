@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1",
-    "serverless": "^3.38.0",
+    "serverless": "^4.31.2",
     "serverless-python-requirements": "^6.1.2"
   }
 }
