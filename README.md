@@ -8,13 +8,13 @@
 
 Windows環境でも環境汚染を気にせず、Dockerを使って **FastAPI** アプリケーションを **AWS Lambda (Serverless Framework)** にデプロイするためのスターターテンプレートです。
 
-## 📖 解説記事 (Tutorial)
+## 解説記事 (Tutorial)
 このリポジトリの詳しい解説や環境構築の手順は、以下のNote記事で公開しています。
 開発の背景やトラブルシューティングはこちらをご覧ください。
 
-👉 **[FastAPIをServerless FrameworkでAWS Lambdaにデプロイする完全ガイド【Mangum採用】](https://note.com/meru_tech/n/ne6374e6579a2)**
+**[FastAPIをServerless FrameworkでAWS Lambdaにデプロイする完全ガイド【Mangum採用】](https://note.com/meru_tech/n/ne6374e6579a2)**
 
-## ✨ 特徴 (Features)
+## 特徴 (Features)
 * **環境汚染ゼロ:** ローカル環境（Windows）にPythonやNode.jsを直接インストールせず、Dockerコンテナ内ですべて完結します。
 * **FastAPI:** PythonのモダンなWebフレームワークを使用。
 * **Serverless Framework:** AWS Lambda + API Gatewayへのデプロイを自動化。
@@ -32,7 +32,7 @@ Windows環境でも環境汚染を気にせず、Dockerを使って **FastAPI** 
 └── README.md
 ```
 
-## 🚀 使い方 (Usage)
+## 使い方 (Usage)
 
 ### 1. 前提条件
 * Docker Desktop がインストールされ、起動していること。
